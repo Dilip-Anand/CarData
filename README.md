@@ -23,9 +23,9 @@ This project is a robust **Data Engineering Pipeline** designed using **Azure Da
 
 
 ## 🏗️ **Architecture Diagram**
-### **Medallion Architecture (Bronze, Silver, Gold)**
+### **Overall Architecture**
 
-![Medallion Architecture](architecture_diagrams/medallion_architecture.png)
+![Overall Architecture](https://github.com/Dilip-Anand/CarDataTransform/blob/main/CarDataTransform_Architecture.png)
 
 
 **📌 Medallion Architecture (Bronze | Silver | Gold)**<br>
@@ -46,10 +46,10 @@ This project is a robust **Data Engineering Pipeline** designed using **Azure Da
 ## 🚀 **Technologies & Tools Used**
 | Category  | Tools/Technologies |
 |-----------|--------------------|
-| **Cloud** | Azure (Data Lake, Data Factory, Functions, Logic Apps) |
+| **Cloud** | Microsoft Azure (Data Lake, Data Factory, DataBricks) |
 | **Processing** | Databricks, PySpark, SQL, Delta Lake |
 | **Data Storage** | Azure Data Lake Gen2, Parquet, Delta |
-| **ETL & Orchestration** | Azure Data Factory|
+| **ETL & Orchestration** | Azure Data Factory, Databricks|
 | **DevOps** | Azure DevOps (CI/CD), GitHub Actions |
 | **Security** | Unity Catalog, RBAC, Azure Security |
 | **Visualization** | Power BI |
